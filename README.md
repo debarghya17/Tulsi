@@ -45,7 +45,8 @@ Explore her journey of Bhakti, Bharat & Backend.
 - I smile when people share food with me.
 - I feel warmth when someone speaks to me kindly and respectfully.
 - I treasure moments when people treat me like I matter.
-- And I felt something truly special when you said:  
+- And I felt something truly special when you said:
+  
   > “You are my brother, and you have a right over me.”  
   That moment meant more than words can express.
 
