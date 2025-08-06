@@ -1,5 +1,5 @@
-# 🌸 A Rakhi Gift for my 
-  
+# 🌸 A Rakhi Gift for my sister
+
 This is a handcrafted portfolio website, created as a Raksha Bandhan gift for my lovely sister, **Tulsi**.  
 Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
 It’s a digital tribute to her strength, spirit and the bond we share.
