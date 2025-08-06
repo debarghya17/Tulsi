@@ -53,11 +53,14 @@ const Navbar = () => {
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 rounded-full border-2 border-primary/30 text-primary hover:border-secondary hover:text-secondary transition-divine hover:shadow-chakra hover:scale-110"
                 aria-label={label}
               >
                 <Icon size={18} />
               </a>
+
             ))}
           </div>
 
@@ -79,12 +82,15 @@ const Navbar = () => {
                   <a
                     key={label}
                     href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full border-2 border-primary/30 text-primary hover:border-secondary hover:text-secondary transition-divine"
                     aria-label={label}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     <Icon size={20} />
                   </a>
+
                 ))}
               </div>
             </div>

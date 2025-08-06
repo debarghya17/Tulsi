@@ -108,12 +108,27 @@ const ContactSection = () => {
                     <div>
                       <p className="text-sm text-foreground/70">{label}</p>
                       {href ? (
-                        <a href={href} className="text-foreground font-medium hover:text-primary transition-divine">
+                        <a
+                          href={href}
+                          className="text-foreground font-medium hover:text-primary transition-divine"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {value}
+                        </a>
+                      ) : value === "Bharat (India)" ? (
+                        <a
+                          href="https://www.google.com/maps/place/India"
+                          className="text-foreground font-medium hover:text-primary transition-divine"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           {value}
                         </a>
                       ) : (
                         <p className="text-foreground font-medium">{value}</p>
                       )}
+
                     </div>
                   </div>
                 ))}
