@@ -59,6 +59,6 @@ cd Tulsi
 
 ## 📜 License
 
-⚠️ This project is proprietary. Do not copy, distribute, or reuse any part of this codebase without written permission from Debarghya Bhowmick.
+This project is proprietary. Do not copy, distribute or reuse any part of this codebase without written permission from Debarghya Bhowmick.
 
 Made with ❤️ by Debarghya Bhowmick
