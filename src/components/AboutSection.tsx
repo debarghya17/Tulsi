@@ -20,7 +20,7 @@ const AboutSection = () => {
     {
       title: "DevOps & Tools",
       icon: <Wrench className="w-8 h-8" />,
-      skills: ["Docker", "Git/GitHub", "AWS", "Linux", "CI/CD", "Firebase", "Heroku"]
+      skills: ["Docker", "Git/GitHub", "AWS", "Linux", "CI/CD", "Firebase", "VS Code", "Netlify"]
     }
   ];
 
