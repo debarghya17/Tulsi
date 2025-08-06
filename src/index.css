@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TULSI GUPTA SPIRITUAL-TECH DESIGN SYSTEM 
+Blending ancient wisdom with modern web aesthetics
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Core Spiritual Color Palette */
+    --background: 217 27% 5%;              /* Charcoal Black #0D0D0D */
+    --foreground: 45 100% 70%;             /* Golden Light */
+
+    --card: 225 39% 10%;                   /* Deep Indigo Card Background */
+    --card-foreground: 45 100% 85%;       /* Light Golden Text */
+
+    --popover: 225 39% 8%;
+    --popover-foreground: 45 100% 85%;
+
+    /* Saffron Primary Theme */
+    --primary: 25 100% 60%;                /* Saffron #FF9933 */
+    --primary-foreground: 217 27% 5%;     /* Dark text on saffron */
+    --primary-glow: 25 100% 70%;          /* Lighter saffron for glow */
+
+    /* Sacred Golden Secondary */
+    --secondary: 45 100% 50%;              /* Pure Gold #FFD700 */
+    --secondary-foreground: 217 27% 5%;   /* Dark text on gold */
+    --secondary-soft: 45 100% 65%;        /* Softer gold */
+
+    /* Deep Indigo Accents */
+    --accent: 225 39% 15%;                 /* Deep Indigo #1A1A40 */
+    --accent-foreground: 45 100% 85%;     /* Light text on indigo */
+    --accent-glow: 225 39% 25%;           /* Lighter indigo */
+
+    /* Muted Spiritual Tones */
+    --muted: 225 39% 12%;
+    --muted-foreground: 45 60% 65%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 225 39% 18%;                 /* Indigo borders */
+    --input: 225 39% 12%;                  /* Dark inputs */
+    --ring: 25 100% 60%;                   /* Saffron focus rings */
+
+    /* Sacred Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(25, 100%, 60%), hsl(45, 100%, 50%));
+    --gradient-divine: linear-gradient(180deg, hsl(225, 39%, 15%), hsl(217, 27%, 5%));
+    --gradient-chakra: radial-gradient(circle, hsl(25, 100%, 60% / 0.3), transparent);
+    --gradient-chakra: conic-gradient(from 0deg, hsl(25, 100%, 60%), hsl(45, 100%, 50%), hsl(25, 100%, 60%));
+
+    /* Sacred Shadows & Glows */
+    --shadow-divine: 0 10px 30px -10px hsl(25, 100%, 60% / 0.4);
+    --shadow-chakra: 0 0 40px hsl(25, 100%, 60% / 0.3);
+    --shadow-mantra: 0 5px 20px hsl(225, 39%, 5% / 0.6);
+    --glow-saffron: 0 0 20px hsl(25, 100%, 60% / 0.5);
+    --glow-golden: 0 0 25px hsl(45, 100%, 50% / 0.4);
+
+    /* Sacred Geometry & Animations */
+    --transition-mantra: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-chakra: transform 0.8s ease-in-out;
+    --transition-divine: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  /* Sacred Typography */
+  .font-sanskrit {
+    font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+  }
+
+  .font-mantra {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+
+  /* Spiritual Animations */
+  @keyframes chakra-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes divine-glow {
+    0%, 100% { 
+      box-shadow: var(--glow-saffron);
+      transform: scale(1);
+    }
+    50% { 
+      box-shadow: var(--glow-golden);
+      transform: scale(1.02);
+    }
+  }
+
+  @keyframes mantra-float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes lotus-bloom {
+    0% { 
+      opacity: 0; 
+      transform: scale(0.8) rotate(-5deg); 
+    }
+    100% { 
+      opacity: 1; 
+      transform: scale(1) rotate(0deg); 
+    }
+  }
+
+  @keyframes trishul-pulse {
+    0%, 100% { 
+      filter: drop-shadow(0 0 5px hsl(25, 100%, 60%));
+    }
+    50% { 
+      filter: drop-shadow(0 0 15px hsl(45, 100%, 50%));
+    }
+  }
+
+  /* Utility Classes */
+  .chakra-spin { animation: chakra-spin 20s linear infinite; }
+  .divine-glow { animation: divine-glow 3s ease-in-out infinite; }
+  .mantra-float { animation: mantra-float 4s ease-in-out infinite; }
+  .lotus-bloom { animation: lotus-bloom 0.8s ease-out forwards; }
+  .trishul-pulse { animation: trishul-pulse 2s ease-in-out infinite; }
+
+  /* Sacred Gradient Backgrounds */
+  .bg-divine { background: var(--gradient-divine); }
+  .bg-chakra { background: var(--gradient-chakra); }
+  .bg-chakra-glow { background: var(--gradient-chakra); }
+
+  /* Divine Shadows */
+  .shadow-divine { box-shadow: var(--shadow-divine); }
+  .shadow-chakra { box-shadow: var(--shadow-chakra); }
+  .shadow-mantra { box-shadow: var(--shadow-mantra); }
+
+  /* Spiritual Glows */
+  .glow-saffron { box-shadow: var(--glow-saffron); }
+  .glow-golden { box-shadow: var(--glow-golden); }
+
+  /* Sacred Transitions */
+  .transition-mantra { transition: var(--transition-mantra); }
+  .transition-chakra { transition: var(--transition-chakra); }
+  .transition-divine { transition: var(--transition-divine); }
+}
+
+/* Component Layer for Sacred Elements */
+@layer components {
+  .shloka-badge {
+    @apply inline-block px-6 py-2 rounded-full border-2 border-primary/50 bg-card/80 backdrop-blur-sm;
+    @apply font-sanskrit text-sm text-primary glow-saffron transition-divine;
+    @apply hover:border-secondary hover:text-secondary hover:glow-golden;
+  }
+
+  .divine-button {
+    @apply px-8 py-3 rounded-lg bg-gradient-to-r from-primary to-secondary;
+    @apply text-primary-foreground font-semibold shadow-divine transition-divine;
+    @apply hover:shadow-chakra hover:scale-105 active:scale-95;
+  }
+
+  .chakra-card {
+    @apply bg-card/90 backdrop-blur-sm border border-border/50 rounded-xl p-6;
+    @apply shadow-mantra transition-divine hover:shadow-divine hover:border-primary/30;
+    @apply hover:bg-card/95 hover:-translate-y-1;
+  }
+
+  .mantra-text {
+    @apply font-sanskrit text-lg text-secondary/90 text-center italic;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    border-radius: 4px;
+    box-shadow: 0 0 10px hsl(var(--primary) / 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--primary)));
+    box-shadow: 0 0 15px hsl(var(--primary) / 0.8);
+  }
+
+  /* Firefox Scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--primary)) hsl(var(--background));
+  }
+}
