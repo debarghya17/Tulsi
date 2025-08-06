@@ -38,8 +38,6 @@ Explore her journey of Bhakti, Bharat & Backend.
 > Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
 > May this portfolio be your digital sanctuary, just as you’ve been mine in life.”
 
----
-
 ### 🌿 From My Heart
 
 - There’s not much happiness in my life, so I cherish the little things.
