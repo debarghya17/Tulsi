@@ -1,34 +1,43 @@
-# 🌸 Tulsi — A Rakhi Gift of Code & Spirit
+# 🌸 Tulsi — A Rakhi Gift for Tulsi Gupta
 
-**Tulsi** is a lovingly crafted portfolio project, gifted on the occasion of Raksha Bandhan. Just like the sacred Tulsi plant, this project symbolizes purity, protection, and devotion—blending technology with tradition.
+This is a handcrafted portfolio website, created as a Raksha Bandhan gift for my sister, **Tulsi Gupta**.  
+Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
+It’s a digital tribute to her strength, spirit and the bond we share.
 
-## 🎁 Purpose
+## 🎁 Why Tulsi?
 
-This portfolio is more than just a showcase of skills—it's a tribute. A digital Rakhi, expressing gratitude, love, and the promise of support through every season of life. Built with care, it reflects the spirit of giving and the bond that transcends distance.
+Raksha Bandhan is more than a ritual—it's a promise. This portfolio is my way of saying:  
+> “I see you. I admire you. And I’ll always be here for you.”
+
+May this gift grow with her journey, offering visibility to her talents and serenity to her digital presence.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python (Flask)
+- **Language**: TypeScript  
+- **Framework**: React.js  
+- **UI Library**: Shadcn  
+- **Build Tool**: Vite  
 - **Styling**: Tailwind CSS
-- **Deployment**: GitHub Pages / Render
 
 ## ✨ Features
 
-- Elegant, responsive design
-- Personal bio and skill highlights
-- Project gallery with live previews
-- Contact form for collaboration
-- Spiritual undertones and aesthetic grace
+- Responsive and elegant design  
+- Personal bio and skill highlights  
+- Project showcase with live previews  
+- Contact form for collaboration  
+- Subtle spiritual and cultural aesthetics
 
 ## 📸 Preview
 
-Visit the live site: [Tulsi Portfolio](http://localhost:8080/)  
-*(Replace with actual deployed URL once live)*
+Visit the live site: [tulsi005.netlify.app](https://tulsi005.netlify.app/)  
+Explore her journey of Bhakti, Bharat & Backend.
 
-## 💌 Message
+## 💌 A Personal Note
 
-> “To the one who’s always had my back—this Rakhi, I offer not just a thread, but a thread of code. May this portfolio remind you of my love, my growth, and my promise to always be there.”
+> “To my sister, Tulsi Gupta,  
+> You’ve always been my guiding light. This Rakhi, I offer you not just a thread of love, but a thread of code—woven with admiration, respect, and endless support.  
+> Just like the sacred Tulsi plant, this project symbolizes purity, protection, and devotion—blending technology with tradition.  
+> May this portfolio be your digital sanctuary, just as you’ve been mine in life.”
 
 ## 📂 Project Setup
 
@@ -37,16 +46,7 @@ git clone https://github.com/debarghya17/Tulsi.git
 cd Tulsi
 # Set up virtual environment and install dependencies
 ```
+📜 License
+This project is open-source and free to use. Feel free to fork, remix, and share the love.
 
-## 📜 License
-
-This project is open-source and free to use. Spread love, not just code.
-
----
-
-Made with ❤️ by [Debarghya Bhowmick](https://github.com/debarghya17)
-```
-
----
-
-Would you like me to generate a matching `.gitignore`, or scaffold a `LICENSE` file too? Or maybe a custom Rakhi-themed favicon for the site?
+Made with ❤️ by Debarghya Bhowmick
