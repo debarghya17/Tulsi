@@ -1,5 +1,5 @@
-# 🌸 A Rakhi Gift for my sister
-
+<h1 style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 2.2em; color: #C71585; text-shadow: 1px 1px 2px #aaa;">🌸 A Rakhi Gift for my 
+  
 This is a handcrafted portfolio website, created as a Raksha Bandhan gift for my lovely sister, **Tulsi**.  
 Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
 It’s a digital tribute to her strength, spirit and the bond we share.
@@ -62,6 +62,6 @@ cd Tulsi
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+⚠️ This project is proprietary. Do not copy, distribute, or reuse any part of this codebase without written permission from Debarghya Bhowmick.
 
 Made with ❤️ by Debarghya Bhowmick
