@@ -3,33 +3,13 @@ import { Calendar, MapPin, Code, Database, Server, Target } from 'lucide-react';
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Full Stack Developer",
-      company: "EdTech Startup",
-      duration: "July 2023 – Dec 2023",
+      title: "Full Stack Python Developer",
+      company: "AstraGenX Corporation",
+      duration: "Aug 2024 – Present",
       location: "Remote, India",
-      description: "Built scalable REST APIs using Django, integrated frontend with React, improved loading time by 30%. Developed student dashboard with Firebase Auth and MongoDB.",
-      technologies: ["Python", "Django", "React", "Firebase", "MongoDB"],
+      description: "Founding member of AstraGenX and led development of full-stack solutions integrating Python ML models with dynamic frontends. Designed and deployed scalable backend services, prototyped AI applications.",
+      technologies: ["Python", "Django", "React", "Flask", "MongoDB", "Machine Learning", "FastAPI"],
       badge: "Shraddhavan Labhate Gyaanam",
-      side: "left"
-    },
-    {
-      title: "Python Developer Intern",
-      company: "BharatSoft Solutions",
-      duration: "Jan 2023 – June 2023", 
-      location: "Bangalore, India",
-      description: "Developed modules in Flask for an internal HR tool. Automated email-based workflows using Python scripts. Wrote SQL queries for PostgreSQL analytics.",
-      technologies: ["Python", "Flask", "PostgreSQL", "SQL"],
-      badge: "Na hi jnanena sadrusham pavitram iha vidyate",
-      side: "right"
-    },
-    {
-      title: "Web Development Trainee",
-      company: "TechVedika Institute",
-      duration: "Aug 2022 – Dec 2022",
-      location: "Delhi, India", 
-      description: "Completed intensive training in Full Stack Development. Built 5+ projects including e-commerce platform and portfolio websites. Mastered HTML, CSS, JavaScript, and Python basics.",
-      technologies: ["HTML", "CSS", "JavaScript", "Python", "MySQL"],
-      badge: "Acharya Devo Bhava",
       side: "left"
     }
   ];

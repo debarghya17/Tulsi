@@ -1,80 +1,62 @@
 import { ExternalLink, Github, Sparkles, Flower, Zap } from 'lucide-react';
-import shraddhatrackThumbnail from '@/assets/shraddhatrack-thumbnail.jpg';
-import shaktiaiThumbnail from '@/assets/shaktiai-thumbnail.jpg';
-import bhavyamartThumbnail from '@/assets/bhavyamart-thumbnail.jpg';
-import krishnaquotesThumbnail from '@/assets/krishnaquotes-thumbnail.jpg';
-import vedalearnThumbnail from '@/assets/vedallearn-thumbnail.jpg';
-import mantraflowThumbnail from '@/assets/mantraflow-thumbnail.jpg';
+import netflixThumbnail from '@/assets/netflix.png';
+import codequestThumbnail from '@/assets/CodeQuest.png';
+import chromeExtensionThumbnail from '@/assets/chromeextension.webp';
+import devdiaryThumbnail from '@/assets/DevDiary.png';
+
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "ShraddhaTrack",
-      subtitle: "Spiritual Habit Tracker",
-      description: "A beautiful habit tracking app designed for daily spiritual practices like meditation, prayer, and mantra chanting. Built with mindfulness and devotion.",
-      technologies: ["React", "Python", "Django", "PostgreSQL", "Firebase"],
-      features: ["Daily Progress Tracking", "Mantra Counter", "Spiritual Goals"],
+      title: "Netflix Clone",
+      subtitle: "Responsive Streaming UI",
+      description:
+        "A responsive UI clone of Netflix built using ReactJS and TMDB API. Integrated dynamic content rendering, movie previews, and user-friendly navigation for immersive experience.",
+      technologies: ["ReactJS", "TMDB API", "CSS", "JavaScript"],
+      features: ["Dynamic Movie Previews", "Responsive Layout", "Genre Browsing"],
       liveDemo: "#",
-      githubRepo: "#",
-      mantra: "Tat Sat",
-      thumbnail: shraddhatrackThumbnail
+      githubRepo: "https://github.com/tulsiguptaa/Netflix-clone",
+      mantra: "Drishyatam Darshayatam",
+      thumbnail: netflixThumbnail,
     },
     {
-      title: "ShaktiAI",
-      subtitle: "Spiritual Wisdom ML Tool",
-      description: "An AI-powered platform that provides personalized spiritual guidance based on ancient Indian texts and user preferences. Combines technology with tradition.",
-      technologies: ["Python", "TensorFlow", "Flask", "NLP", "MongoDB"],
-      features: ["Personalized Guidance", "Text Analysis", "Daily Insights"],
+      title: "CodeQuest – Quiz App",
+      subtitle: "Programming Quiz Platform",
+      description:
+        "A full-stack Python-based quiz application designed to test programming skills. Features real-time score tracking, difficulty levels, and responsive UI using Flask and Bootstrap.",
+      technologies: ["Python", "Flask", "Bootstrap", "SQLite"],
+      features: ["Real-Time Scoring", "Difficulty Levels", "User-Friendly UI"],
       liveDemo: "#",
-      githubRepo: "#",
-      mantra: "Yata Mata Tata Patha",
-      thumbnail: shaktiaiThumbnail
+      githubRepo: "https://github.com/tulsiguptaa/Quiz-app",
+      mantra: "Jnana Vardhanam",
+      thumbnail: codequestThumbnail,
     },
     {
-      title: "BhavyaMart",
-      subtitle: "E-commerce Platform",
-      description: "A full-featured e-commerce platform supporting local Indian artisans and traditional crafts. Built to promote Indian culture through commerce.",
-      technologies: ["React", "Node.js", "Express", "MySQL", "Stripe"],
-      features: ["Product Catalog", "Payment Gateway", "Admin Dashboard"],
-      liveDemo: "#", 
-      githubRepo: "#",
-      mantra: "Vasudhaiva Kutumbakam",
-      thumbnail: bhavyamartThumbnail
+      title: "Chrome Extension – Productivity Booster",
+      subtitle: "Focus & Task Manager",
+      description:
+        "A custom Chrome extension that helps manage tasks, block distractions, and stay focused. Uses JavaScript, HTML, and Chrome APIs to offer reminders, timers, and customizable UI.",
+      technologies: ["JavaScript", "HTML", "Chrome APIs", "CSS"],
+      features: ["Task Reminders", "Focus Timers", "Distraction Blocker"],
+      liveDemo: "#",
+      githubRepo: "https://github.com/tulsiguptaa/Extension",
+      mantra: "Karya Siddhi Sadhakam",
+      thumbnail: chromeExtensionThumbnail,
     },
     {
-      title: "KrishnaQuotes API",
-      subtitle: "Spiritual Quotes Service",
-      description: "A RESTful API serving thousands of inspirational quotes from Bhagavad Gita, Upanishads, and other sacred texts. Free for developers worldwide.",
-      technologies: ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS"],
-      features: ["REST API", "Quote Categories", "Daily Verses"],
+      title: "DevDiary – Blog App",
+      subtitle: "Personal Blog Platform",
+      description:
+        "A personal blog platform where users can create, edit, and delete posts. Built using Python (Flask), SQLite, and styled with modern CSS. Implements authentication and markdown support.",
+      technologies: ["Python", "Flask", "SQLite", "CSS"],
+      features: ["User Auth", "Markdown Support", "Post Management"],
       liveDemo: "#",
-      githubRepo: "#", 
-      mantra: "Dharmo Rakshati Rakshitah",
-      thumbnail: krishnaquotesThumbnail
+      githubRepo: "https://github.com/tulsiguptaa/BLOG-APP",
+      mantra: "Vakta Dāta Smarata Shrota",
+      thumbnail: devdiaryThumbnail,
     },
-    {
-      title: "VedaLearn",
-      subtitle: "Educational Platform",
-      description: "An interactive learning platform teaching Sanskrit, Yoga, and Indian philosophy to global students. Making ancient wisdom accessible through technology.",
-      technologies: ["React", "Python", "Django", "WebRTC", "MongoDB"],
-      features: ["Video Lessons", "Interactive Quizzes", "Progress Tracking"],
-      liveDemo: "#",
-      githubRepo: "#",
-      mantra: "Vidya Amritam Ashnuteh",
-      thumbnail: vedalearnThumbnail
-    },
-    {
-      title: "MantraFlow",
-      subtitle: "Meditation & Prayer App",
-      description: "A peaceful meditation app with guided prayers, mantra chanting, and mindfulness exercises. Designed to bring inner peace through technology.",
-      technologies: ["React Native", "Firebase", "Audio APIs", "Redux"],
-      features: ["Guided Meditation", "Timer Functions", "Audio Library"],
-      liveDemo: "#",
-      githubRepo: "#",
-      mantra: "Antah Shanti Bahih Shanti",
-      thumbnail: mantraflowThumbnail
-    }
   ];
+
 
   const featuredProject = projects[0];
   const otherProjects = projects.slice(1);
@@ -223,7 +205,7 @@ const ProjectsSection = () => {
                   </p>
                   
                   <div className="flex flex-wrap gap-1">
-                    {project.technologies.slice(0, 3).map((tech) => (
+                    {project.technologies.map((tech) => (
                       <span
                         key={tech}
                         className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full"
@@ -231,12 +213,8 @@ const ProjectsSection = () => {
                         {tech}
                       </span>
                     ))}
-                    {project.technologies.length > 3 && (
-                      <span className="px-2 py-1 text-xs text-foreground/60">
-                        +{project.technologies.length - 3} more
-                      </span>
-                    )}
                   </div>
+
                 </div>
 
                 <div className="flex space-x-3 mt-auto">

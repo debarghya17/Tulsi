@@ -47,7 +47,7 @@ const AboutSection = () => {
             <div className="relative group">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-secondary rounded-full blur-lg opacity-75 group-hover:opacity-100 transition-divine"></div>
               <img
-                src="/lovable-uploads/8ce5faeb-3749-4f9a-abe1-27e330251309.png"
+                src="/TG.png"
                 alt="Tulsi Gupta"
                 className="relative w-80 h-80 rounded-full object-cover border-4 border-secondary shadow-divine"
               />
