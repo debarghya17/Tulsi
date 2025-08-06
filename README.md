@@ -22,7 +22,6 @@ May this gift grow with her journey, offering visibility to her talents and sere
   <div style="background-color: #1572B6; color: white; padding: 8px 12px; border-radius: 6px;">CSS</div>
 </div>
 
-
 ## ✨ Features
 
 - Responsive and elegant design  
