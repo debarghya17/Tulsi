@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Code, Database, Server, Target } from 'lucide-react';
+import { Calendar, MapPin, Target } from 'lucide-react';
 
 const ExperienceSection = () => {
   const experiences = [
@@ -42,14 +42,11 @@ const ExperienceSection = () => {
                 {/* Mobile Card Layout */}
                 <div className="lg:hidden">
                   <div className="chakra-card group relative">
-                    {/* Sacred Badge */}
                     <div className="text-center mb-4">
                       <span className="inline-block px-3 py-1 bg-secondary/20 text-secondary text-xs font-sanskrit rounded-full border border-secondary/30">
                         {exp.badge}
                       </span>
                     </div>
-
-                    {/* Job Details */}
                     <div className="space-y-3">
                       <div>
                         <h3 className="text-lg font-bold text-primary font-sanskrit mb-2">
@@ -59,7 +56,6 @@ const ExperienceSection = () => {
                           {exp.company}
                         </h4>
                       </div>
-
                       <div className="flex flex-col gap-2 text-sm text-foreground/70">
                         <div className="flex items-center space-x-1">
                           <Calendar className="w-4 h-4 flex-shrink-0" />
@@ -70,12 +66,9 @@ const ExperienceSection = () => {
                           <span>{exp.location}</span>
                         </div>
                       </div>
-
                       <p className="text-foreground/90 leading-relaxed text-sm">
                         {exp.description}
                       </p>
-
-                      {/* Technologies */}
                       <div className="flex flex-wrap gap-1.5">
                         {exp.technologies.map((tech) => (
                           <span
@@ -91,27 +84,15 @@ const ExperienceSection = () => {
                 </div>
 
                 {/* Desktop Timeline Layout */}
-                <div className={`hidden lg:flex items-start ${
-                  exp.side === 'left' ? 'justify-start' : 'justify-end'
-                }`}>
-                  {/* Timeline Icon */}
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-chakra border-4 border-background z-10">
-                    <Target className="text-primary-foreground w-6 h-6" />
-                  </div>
-
+                <div className={`hidden lg:flex items-center relative ${exp.side === 'left' ? 'justify-start' : 'justify-end'}`}>
                   {/* Experience Card */}
-                  <div className={`w-full max-w-lg ${
-                    exp.side === 'left' ? 'pr-16' : 'pl-16'
-                  } lotus-bloom`}>
+                  <div className={`w-full max-w-lg ${exp.side === 'left' ? 'pr-16' : 'pl-16'} lotus-bloom`}>
                     <div className="chakra-card group relative">
-                      {/* Sacred Badge */}
                       <div className="text-center mb-4">
                         <span className="inline-block px-4 py-1 bg-secondary/20 text-secondary text-sm font-sanskrit rounded-full border border-secondary/30">
                           {exp.badge}
                         </span>
                       </div>
-
-                      {/* Job Details */}
                       <div className="space-y-4">
                         <div>
                           <h3 className="text-2xl font-bold text-primary font-sanskrit mb-2">
@@ -121,7 +102,6 @@ const ExperienceSection = () => {
                             {exp.company}
                           </h4>
                         </div>
-
                         <div className="flex flex-col gap-2 text-sm text-foreground/70">
                           <div className="flex items-center space-x-1">
                             <Calendar className="w-4 h-4 flex-shrink-0" />
@@ -132,12 +112,9 @@ const ExperienceSection = () => {
                             <span>{exp.location}</span>
                           </div>
                         </div>
-
                         <p className="text-foreground/90 leading-relaxed text-base">
                           {exp.description}
                         </p>
-
-                        {/* Technologies */}
                         <div className="flex flex-wrap gap-2">
                           {exp.technologies.map((tech) => (
                             <span
@@ -150,6 +127,11 @@ const ExperienceSection = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+
+                  {/* Timeline Icon */}
+                  <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-chakra border-4 border-background z-10">
+                    <Target className="text-primary-foreground w-6 h-6" />
                   </div>
                 </div>
               </div>
