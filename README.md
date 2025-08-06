@@ -1,4 +1,4 @@
-<h1 style="font-family: 'Arial Black', Gadget, sans-serif; font-size: 2.2em; color: #C71585; text-shadow: 1px 1px 2px #aaa;">🌸 A Rakhi Gift for my 
+# 🌸 A Rakhi Gift for my 
   
 This is a handcrafted portfolio website, created as a Raksha Bandhan gift for my lovely sister, **Tulsi**.  
 Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
