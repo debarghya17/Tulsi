@@ -1,7 +1,3 @@
-Here’s a heartfelt and professional `README.md` for your **Tulsi** portfolio project, crafted as a Rakhi gift:
-
----
-
 # 🌸 Tulsi — A Rakhi Gift of Code & Spirit
 
 **Tulsi** is a lovingly crafted portfolio project, gifted on the occasion of Raksha Bandhan. Just like the sacred Tulsi plant, this project symbolizes purity, protection, and devotion—blending technology with tradition.
