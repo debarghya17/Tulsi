@@ -30,7 +30,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Brand Logo */}
-          <div className="flex items-center space-x-3 group">
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="flex items-center space-x-3 group focus:outline-none"
+          >
             <div className="w-8 h-8 rounded-full overflow-hidden shadow-chakra group-hover:scale-110 transition-divine">
               <img 
                 src={astragenxLogo} 
@@ -38,10 +41,11 @@ const Navbar = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h1 className="font-sanskrit text-xl md:text-2xl font-bold text-secondary group-hover:text-primary transition-divine">
+            <span className="font-sanskrit text-xl md:text-2xl font-bold text-secondary group-hover:text-primary transition-divine">
               Tulsi Gupta
-            </h1>
-          </div>
+            </span>
+          </button>
+
 
           {/* Desktop Social Links */}
           <div className="hidden md:flex items-center space-x-4">
