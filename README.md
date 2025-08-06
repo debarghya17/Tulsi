@@ -60,7 +60,8 @@ cd Tulsi
 # Set up virtual environment and install dependencies
 ```
 
-📜 License
-This project is open-source and free to use. Feel free to fork, remix, and share the love.
+## 📜 License
+
+This project is licensed under the **MIT License**.
 
 Made with ❤️ by Debarghya Bhowmick
