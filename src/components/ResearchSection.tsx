@@ -7,9 +7,9 @@ const ResearchSection = () => {
       domain: "AI Ethics & Philosophy",
       summary: "This research explores how ancient Indian philosophical concepts can be applied to detect and mitigate bias in modern AI systems. Drawing from concepts of Maya (illusion) and Dharma (righteousness), we propose a novel framework for ethical AI development.",
       technologies: ["Python", "TensorFlow", "Ethics AI", "NLP", "Philosophical Analysis"],
-      paperLink: "https://arxiv.org/abs/example1",
-      repoLink: "https://github.com/tulsiguptaa/atma-gyaan",
-      citationCount: "15",
+      paperLink: "#",
+      repoLink: "#",
+      citationCount: "",
       featured: true
     },
     {
@@ -17,36 +17,36 @@ const ResearchSection = () => {
       domain: "Natural Language Processing",
       summary: "Development of a comprehensive NLP pipeline for classifying and analyzing ancient Sanskrit texts. This work contributes to digital preservation of Indian heritage while advancing multilingual NLP research.",
       technologies: ["Python", "BERT", "Sanskrit NLP", "Deep Learning", "Cultural Heritage"],
-      paperLink: "https://arxiv.org/abs/example2",
-      repoLink: "https://github.com/tulsiguptaa/veda-net",
-      citationCount: "8"
+      paperLink: "#",
+      repoLink: "#",
+      citationCount: ""
     },
     {
       title: "Dharmic Data: Privacy-Preserving Analytics for Indian Healthcare",
       domain: "Data Privacy & Healthcare",
       summary: "A study on implementing privacy-preserving data analytics in Indian healthcare systems, inspired by the principle of Ahimsa (non-harm). Focuses on protecting patient data while enabling medical research.",
       technologies: ["Differential Privacy", "Python", "Healthcare Analytics", "Security"],
-      paperLink: "https://arxiv.org/abs/example3",
-      repoLink: "https://github.com/tulsiguptaa/dharmic-data",
-      citationCount: "12"
+      paperLink: "#",
+      repoLink: "#",
+      citationCount: ""
     },
     {
       title: "Shakti Computing: Empowering Women in Indian Tech Ecosystem",
       domain: "Social Computing",
       summary: "An empirical study examining barriers and opportunities for women in India's technology sector. Proposes technology-driven solutions to increase female participation in STEM fields.",
       technologies: ["Data Analysis", "Social Research", "Python", "Statistical Analysis"],
-      paperLink: "https://arxiv.org/abs/example4",
-      repoLink: "https://github.com/tulsiguptaa/shakti-computing",
-      citationCount: "22"
+      paperLink: "#",
+      repoLink: "#",
+      citationCount: ""
     },
     {
       title: "Karma-Based Load Balancing: A Novel Approach to Distributed Systems",
       domain: "Distributed Systems",
       summary: "Introduces a load balancing algorithm inspired by the concept of Karma, where server selection is based on historical performance and current capacity. Shows improved efficiency over traditional methods.",
       technologies: ["Distributed Systems", "Algorithm Design", "Python", "Performance Analysis"],
-      paperLink: "https://arxiv.org/abs/example5",
-      repoLink: "https://github.com/tulsiguptaa/karma-balancer",
-      citationCount: "6"
+      paperLink: "#",
+      repoLink: "#",
+      citationCount: ""
     }
   ];
 
@@ -184,7 +184,7 @@ const ResearchSection = () => {
                   </p>
 
                   <div className="flex flex-wrap gap-1">
-                    {paper.technologies.slice(0, 3).map((tech) => (
+                    {paper.technologies.map((tech) => (
                       <span
                         key={tech}
                         className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full"
@@ -192,12 +192,8 @@ const ResearchSection = () => {
                         {tech}
                       </span>
                     ))}
-                    {paper.technologies.length > 3 && (
-                      <span className="px-2 py-1 text-xs text-foreground/60">
-                        +{paper.technologies.length - 3} more
-                      </span>
-                    )}
                   </div>
+
                 </div>
 
                 <div className="flex space-x-3 mt-auto">
