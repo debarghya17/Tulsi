@@ -1,6 +1,6 @@
-# 🌸 Tulsi — A Rakhi Gift for Tulsi Gupta
+# 🌸 A Rakhi Gift for my sister
 
-This is a handcrafted portfolio website, created as a Raksha Bandhan gift for my sister, **Tulsi Gupta**.  
+This is a handcrafted portfolio website, created as a Raksha Bandhan gift for my lovely sister, **Tulsi**.  
 Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
 It’s a digital tribute to her strength, spirit and the bond we share.
 
@@ -20,7 +20,6 @@ May this gift grow with her journey, offering visibility to her talents and sere
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-
 ## ✨ Features
 
 - Responsive and elegant design  
@@ -37,9 +36,24 @@ Explore her journey of Bhakti, Bharat & Backend.
 ## 💌 A Personal Note
 
 > “To my sister, Tulsi Gupta,  
-> You’ve always been my guiding light. This Rakhi, I offer you not just a thread of love, but a thread of code—woven with admiration, respect, and endless support.  
-> Just like the sacred Tulsi plant, this project symbolizes purity, protection, and devotion—blending technology with tradition.  
+> You’ve always been my guiding light. This Rakhi, I offer you not just a thread of love, but a thread of code—woven with admiration, respect and endless support.  
+> Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
 > May this portfolio be your digital sanctuary, just as you’ve been mine in life.”
+
+---
+
+### 🌿 From My Heart
+
+- There’s not much happiness in my life, so I cherish the little things.
+- I feel joy when someone appreciates me.
+- I smile when people share food with me.
+- I feel warmth when someone speaks to me kindly and respectfully.
+- I treasure moments when people treat me like I matter.
+- And I felt something truly special when you said:  
+  > “You are my brother, and you have a right over me.”  
+  That moment meant more than words can express.
+
+> This portfolio is not just a gift—it’s a reflection of that feeling, that bond and that quiet joy I carry in my heart.
 
 ## 📂 Project Setup
 
@@ -48,6 +62,7 @@ git clone https://github.com/debarghya17/Tulsi.git
 cd Tulsi
 # Set up virtual environment and install dependencies
 ```
+
 📜 License
 This project is open-source and free to use. Feel free to fork, remix, and share the love.
 
