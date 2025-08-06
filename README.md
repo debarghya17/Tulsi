@@ -13,14 +13,13 @@ May this gift grow with her journey, offering visibility to her talents and sere
 
 ## 🛠️ Tech Stack
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
-  <div style="background-color: #3178C6; color: white; padding: 8px 12px; border-radius: 6px;">TypeScript</div>
-  <div style="background-color: #20232A; color: #61DAFB; padding: 8px 12px; border-radius: 6px;">React.js</div>
-  <div style="background-color: #000000; color: white; padding: 8px 12px; border-radius: 6px;">Shadcn</div>
-  <div style="background-color: #646CFF; color: white; padding: 8px 12px; border-radius: 6px;">Vite</div>
-  <div style="background-color: #38B2AC; color: white; padding: 8px 12px; border-radius: 6px;">Tailwind CSS</div>
-  <div style="background-color: #1572B6; color: white; padding: 8px 12px; border-radius: 6px;">CSS</div>
-</div>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Shadcn](https://img.shields.io/badge/Shadcn-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 
 ## ✨ Features
 
