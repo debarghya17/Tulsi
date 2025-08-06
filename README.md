@@ -13,11 +13,15 @@ May this gift grow with her journey, offering visibility to her talents and sere
 
 ## 🛠️ Tech Stack
 
-- **Language**: TypeScript  
-- **Framework**: React.js  
-- **UI Library**: Shadcn  
-- **Build Tool**: Vite  
-- **Styling**: Tailwind CSS
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+  <div style="background-color: #3178C6; color: white; padding: 8px 12px; border-radius: 6px;">TypeScript</div>
+  <div style="background-color: #20232A; color: #61DAFB; padding: 8px 12px; border-radius: 6px;">React.js</div>
+  <div style="background-color: #000000; color: white; padding: 8px 12px; border-radius: 6px;">Shadcn</div>
+  <div style="background-color: #646CFF; color: white; padding: 8px 12px; border-radius: 6px;">Vite</div>
+  <div style="background-color: #38B2AC; color: white; padding: 8px 12px; border-radius: 6px;">Tailwind CSS</div>
+  <div style="background-color: #1572B6; color: white; padding: 8px 12px; border-radius: 6px;">CSS</div>
+</div>
+
 
 ## ✨ Features
 
