@@ -4,8 +4,6 @@ This is a handcrafted portfolio website, created as a Raksha Bandhan gift for my
 Just like the sacred Tulsi plant, this project symbolizes purity, protection and devotion—blending technology with tradition.  
 It’s a digital tribute to her strength, spirit and the bond we share.
 
-## 🎁 Why Tulsi?
-
 Raksha Bandhan is more than a ritual—it's a promise. This portfolio is my way of saying:  
 > “I see you. I admire you. And I’ll always be here for you.”
 
