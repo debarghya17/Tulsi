@@ -145,12 +145,13 @@ const ProjectsSection = () => {
                 </div>
 
                 <div className="relative">
-                  <div className="relative w-full h-64 sm:h-72 md:h-80 lg:h-96 rounded-xl overflow-hidden shadow-divine border border-primary/30">
+                  <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-divine border border-primary/30">
                     <img 
                       src={featuredProject.thumbnail} 
                       alt={`${featuredProject.title} thumbnail`}
                       className="w-full h-full object-cover"
                     />
+
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-secondary/10"></div>
                     <div className="absolute bottom-4 left-4 right-4">
                       <div className="flex items-center space-x-2">
