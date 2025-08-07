@@ -28,7 +28,8 @@ May this gift grow with her journey, offering visibility to her talents and sere
 
 ## 📸 Preview
 
-Visit the live site: [Click Here](https://tulsi005.netlify.app/) <br>
+Visit the live site: [Click Here](https://tulsi005.netlify.app/)
+
 Explore her journey of Bhakti, Bharat & Backend.
 
 ## 💌 A Personal Note
