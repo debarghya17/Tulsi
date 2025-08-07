@@ -145,7 +145,7 @@ const ProjectsSection = () => {
                 </div>
 
                 <div className="relative">
-                  <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-divine border border-primary/30">
+                  <div className="relative w-full h-64 sm:h-72 md:h-80 lg:h-96 rounded-xl overflow-hidden shadow-divine border border-primary/30">
                     <img 
                       src={featuredProject.thumbnail} 
                       alt={`${featuredProject.title} thumbnail`}
